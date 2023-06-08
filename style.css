@@ -1,0 +1,99 @@
+#opciones-usuario {
+    display: none;
+}
+
+#form-depositar {
+    display: none;
+}
+
+#form-retirar {
+    display: none;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  h3 {
+    margin-top: 0;
+  }
+  
+  .error {
+    color: red;
+  }
+  
+  #inicio {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 20px;
+  }
+  
+  #inicio label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  #inicio input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  #inicio button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  #inicio button:hover {
+    background-color: #0056b3;
+  }
+  
+  #opciones-usuario {
+    display: none;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-top: 20px;
+  }
+  
+  #opciones-usuario button {
+    margin-bottom: 10px;
+  }
+  
+  #form-depositar,
+  #form-retirar {
+    display: none;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-top: 20px;
+  }
+  
+  #form-depositar input[type="number"],
+  #form-retirar input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  #balance {
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
